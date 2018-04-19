@@ -16,7 +16,7 @@ Le projet du jour se déroule en 4 étapes/clases
 - [ ] Player
 - [ ] Game 
 
-Nous n'avons pas tout reussi a faire, mon programme ne marche pas, désolé :sad:
+Nous n'avons pas tout reussi a faire, mon programme ne marche pas, désolé :cry:
 
 :pray: Indulgence required, we did our best :smile:
 
