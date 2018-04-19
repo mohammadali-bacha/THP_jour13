@@ -25,10 +25,10 @@ Et voilà, toutes les gems sont installés !
 
 ## Petit Bilan :
 
-- [x]
-- [x]
-- [ ]
-- [ ]
+- [x] Board
+- [x] BoardCase
+- [ ] Player
+- [ ] Game 
 
 :pray: Indulgence required, we did our best :smile:
 
