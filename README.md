@@ -22,18 +22,6 @@ il suffit d'accéder au dossier et de faire
 ```$ bundle install```
 Et voilà, toutes les gems sont installés !
 
-Liens githubs des pré-requis :
-* [Nokogiri](https://github.com/sparklemotion/nokogiri)
-* [Google Drive Ruby](https://github.com/gimite/google-drive-ruby)
-* [Gem Gmail](https://github.com/gmailgem/gmail)
-* [Dotenv](https://github.com/bkeepers/dotenv)
-
-> :warning: IMPORTANT :warning:  
-> N’oubliez pas d'insérer votre fichier ```config.json``` avec vos tokens pour que les programmes fonctionnent !
-
-> Remplacez également la partie spreadsheet_by_key```("XXXXXXkXxXxXxXXXXXxXXx-XXXXxxXxXxxxXXXXXxXXX")```  avec votre spreadsheet key
-
-*(Un k s'est glissé dans la clé, sauras-tu le retrouver?)*
 
 ## Petit Bilan :
 
