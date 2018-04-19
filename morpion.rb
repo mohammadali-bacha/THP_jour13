@@ -4,16 +4,25 @@ class BoardCase
 
   def initialize
     #TO DO doit régler sa valeur, ainsi que son numéro de case
-    attr_accessor :value, :case_number
-    BoardCase.case_number =
-    BoardCase.value = "x" "O" " "
+#    attr_accessor :value, :case_number
+board = []
+    puts " #{board[0]} | #{board[1]} | #{board[2]} "
+    puts "-----------"
+    puts " #{board[3]} | #{board[4]} | #{board[5]} "
+    puts "-----------"
+    puts " #{board[6]} | #{board[7]} | #{board[8]} "
+#    BoardCase.case_number =
+#    BoardCase.value = "x" "O" " "
     # :x , :0 , :" "
+#     def display_board(board)
+#
+# end
   end
 
 
   def to_s
     #TO DO : doit renvoyer la valeur au format string
-  #  attr_accessor :case_number 2eme attr_accessor ou bien c'est ds la premiere methode ?
+
   end
 
 end
