@@ -9,26 +9,13 @@ Le projet du jour se déroule en 4 étapes/clases
 4. Game : c'est la partie. Elle initialise tout et lance le jeu
 
 
-
-## Organisation
-
-
-## How it works ?
-
-Pour faire tourner tous les fichiers, il est nécessaire d'installer plusieurs gems.
-Pour cela, rien de plus simple : une fois le dossier cloné sur l'ordinateur,
-```$ git clone https://github.com/Arak00/gmail.git```
-il suffit d'accéder au dossier et de faire
-```$ bundle install```
-Et voilà, toutes les gems sont installés !
-
-
 ## Petit Bilan :
 
 - [x] Board
 - [x] BoardCase
 - [ ] Player
 - [ ] Game 
+Nous n'avons pas tout reussi a faire, mon programme ne marche pas, désolé :(
 
 :pray: Indulgence required, we did our best :smile:
 
