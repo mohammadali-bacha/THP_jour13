@@ -25,6 +25,18 @@ class Board
     Board.BoardCase
     #Ces instances sont rangées dans une array qui est l'attr_accessor de la classe
     attr_accessor :array
+    def initialize
+  @case1 = BoardCase.new(1)
+  @case2 = BoardCase.new(2)
+  @case3 = BoardCase.new(3)
+  @case4 = BoardCase.new(4)
+  @case5 = BoardCase.new(5)
+  @case6 = BoardCase.new(6)
+  @case7 = BoardCase.new(7)
+  @case8 = BoardCase.new(8)
+  @case9 = BoardCase.new(9)
+  @plateau = [@case1.value, @case2.value, @case3.value, @case4.value, @case5.value, @case6.value, @case7.value, @case8.value, @case9.value]
+end
   end
 
   def to_s
@@ -44,10 +56,10 @@ class Board
     #TO DO : la classe a 2 attr_accessor, son nom, sa valeur (X ou O). Elle a un attr_writer : il a gagné ?
     attr_accessor :name , :value
 
-    def initialize
-      #TO DO : doit régler son nom, sa valeur, son état de victoire
-
-    end
+    def initialize(name, value)		# <= Initilaise les joueurs.
+  		@name = name
+  		@value = value
+  	end
 
     class Game
       def initialize
@@ -70,6 +82,14 @@ class Board
         p Board
         # demande au joueur il joue quoi,
         p "Que jouez-vous ?"
+        input = gets.strip  #.strip pour eviter espaces inutiles
+        index = input_to_index(input)
+        if valid_move?(board, index)
+          move(board, index)
+          display_board(board)
+        else
+          turn(board)
+
         #  vérifie si un joueur a gagné,
         #passe au joueur suivant si la partie n'est pas finie
         if joueur a gagner
